@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KALKULATOR BMI</title>
+</head>
+<body>
+    <header id="header-bar">
+        <h2 id="logo">Kalkulator BMI</h2>
+        <nav class="navigation-bar">
+            <a href="">Download APP</a>
+            <a href="">Contact Us</a>
+        </nav>
+    </header>
+    <h3 style="display: contents;">Pilih Jenis Kelamin</h3>
+    <form style="margin: 10px;">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="laki-laki" name="gender" value="laki-laki">
+
+        <label for="perempuan">Perempuan</label>
+        <input type="radio" id="perempuan" name="gender" value="perempuan">
+    </form>
+    <section class="input-section">
+        <label for="weight-input">Berat Badan</label>
+        <input type="number" id="weight-input" placeholder="0">
+    </section>
+    <section class="input-section">
+        <label for="Height-input">Tinggi Badan</label>
+        <input type="number" id="Height-input" placeholder="0">
+    </section>
+    <section class="input-section">
+        <label for="Age-input">Usia</label>
+        <input type="number" id="Age-input" placeholder="0">
+    </section>
+    <section class="button-section">
+        <button>Hitung BMI</button>
+        <button>Reset</button>
+    </section>
+</body>
+</html>
